@@ -164,22 +164,31 @@ Together, these seven interfaces ensure that Edu-Able provides an inclusive, stu
 
 ```bash
 Edu-Able/
-├── assets/
-├── components/
-│   └── exam/
-├── pages/
-│   └── exam/
-├── dyslexia/
-│   ├── app.js
-│   └── data.js
-├── blind-learning.html
-├── deaf-learning.html
-├── dyslexia-platform.html
-├── parent-dashboard.html
-├── index.html
-├── server.js
-├── package.json
-├── .env.example
+├── frontend/
+│   ├── assets/
+│   ├── components/
+│   │   └── exam/
+│   ├── dyslexia/
+│   │   ├── app.js
+│   │   └── data.js
+│   ├── img/
+│   ├── pages/
+│   │   ├── dashboard/
+│   │   │   └── parent-dashboard.html
+│   │   ├── exam/
+│   │   │   └── index.html
+│   │   └── learning/
+│   │       ├── adhd-learning.html
+│   │       ├── blind-learning.html
+│   │       ├── deaf-learning.html
+│   │       └── dyslexia-platform.html
+│   ├── index.html
+│   └── login.html
+├── backend/
+│   ├── .env.example
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 └── README.md
 ```
 
@@ -190,7 +199,7 @@ Edu-Able/
 ### 1) Clone the repository
 ```bash
 git clone https://github.com/your-username/edu-able.git
-cd edu-able
+cd edu-able/backend
 ```
 
 ### 2) Install dependencies
@@ -279,6 +288,16 @@ Edu-Able is not just a product feature set, it is an accessibility commitment.
 - 🧑‍🏫 Teacher classroom controls and assignment publishing
 - ☁️ Cloud sync for cross-device progress
 - 🌐 Multi-language and regional curriculum support
+---
+
+👥 Built By
+Team AYUDHAM
+
+D A Ajay 
+
+Monjit Borah
+
+Abhinav Mehta
 
 ---
 

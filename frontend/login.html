@@ -629,20 +629,20 @@
                             lastLoginAt: new Date().toISOString()
                         };
                         localStorage.setItem('adhdStudentProfile', JSON.stringify(profile));
-                        window.location.assign('adhd-learning.html');
+                        window.location.assign('pages/learning/adhd-learning.html');
                         return;
                     }
                     case 'deaf':
-                        window.location.assign('deaf-learning.html');
+                        window.location.assign('pages/learning/deaf-learning.html');
                         return;
                     case 'blind':
-                        window.location.assign('blind-learning.html');
+                        window.location.assign('pages/learning/blind-learning.html');
                         return;
                     case 'exam':
                         window.location.assign('pages/exam/index.html');
                         return;
                     case 'dyslexia':
-                        window.location.assign(`dyslexia-platform.html?v=${Date.now()}`);
+                        window.location.assign(`pages/learning/dyslexia-platform.html?v=${Date.now()}`);
                         return;
                     case 'parent': {
                         const profile = {
@@ -652,7 +652,7 @@
                             lastLoginAt: new Date().toISOString()
                         };
                         localStorage.setItem('parentStudentProfile', JSON.stringify(profile));
-                        window.location.assign('parent-dashboard.html');
+                        window.location.assign('pages/dashboard/parent-dashboard.html');
                         return;
                     }
                     default:
